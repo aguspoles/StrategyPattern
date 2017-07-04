@@ -112,6 +112,10 @@
   <ItemGroup>
     <ClInclude Include="Arma.h" />
     <ClInclude Include="Armadura.h" />
+    <ClInclude Include="Ataque.h" />
+    <ClInclude Include="Disparo.h" />
+    <ClInclude Include="Enemigo.h" />
+    <ClInclude Include="GolpeBasico.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Personaje.h" />
     <ClInclude Include="Posion.h" />
@@ -119,6 +123,10 @@
   <ItemGroup>
     <ClCompile Include="Arma.cpp" />
     <ClCompile Include="Armadura.cpp" />
+    <ClCompile Include="Ataque.cpp" />
+    <ClCompile Include="Disparo.cpp" />
+    <ClCompile Include="Enemigo.cpp" />
+    <ClCompile Include="GolpeBasico.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Personaje.cpp" />
