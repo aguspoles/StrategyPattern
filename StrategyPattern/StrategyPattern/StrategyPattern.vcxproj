@@ -110,27 +110,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Accesory.h" />
     <ClInclude Include="Arma.h" />
     <ClInclude Include="Armadura.h" />
     <ClInclude Include="Ataque.h" />
+    <ClInclude Include="Component.h" />
     <ClInclude Include="Disparo.h" />
     <ClInclude Include="Enemigo.h" />
+    <ClInclude Include="Flame.h" />
     <ClInclude Include="GolpeBasico.h" />
     <ClInclude Include="Item.h" />
+    <ClInclude Include="Laser.h" />
     <ClInclude Include="Personaje.h" />
     <ClInclude Include="Posion.h" />
+    <ClInclude Include="Shield.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Accesory.cpp" />
     <ClCompile Include="Arma.cpp" />
     <ClCompile Include="Armadura.cpp" />
     <ClCompile Include="Ataque.cpp" />
+    <ClCompile Include="Component.cpp" />
     <ClCompile Include="Disparo.cpp" />
     <ClCompile Include="Enemigo.cpp" />
+    <ClCompile Include="Flame.cpp" />
     <ClCompile Include="GolpeBasico.cpp" />
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Laser.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Personaje.cpp" />
     <ClCompile Include="Posion.cpp" />
+    <ClCompile Include="Shield.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

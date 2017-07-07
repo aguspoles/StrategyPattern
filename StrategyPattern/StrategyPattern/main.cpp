@@ -5,6 +5,10 @@
 #include "Armadura.h"
 #include "Arma.h"
 #include "Posion.h"
+#include "Sword.h"
+#include "Laser.h"
+#include "Shield.h"
+#include "Flame.h"
 
 int main() {
 
@@ -13,16 +17,29 @@ int main() {
 
 	p->AgarrarItem(armadura);*/
 
-	Enemigo* e = new Enemigo();
+	//strategy pattern
+	/*Enemigo* e = new Enemigo();
 
 	e->CambiarAtaque(new GolpeBasico());
 	e->Atacar();
 	e->CambiarAtaque(new Disparo());
-	e->Atacar();
+	e->Atacar();*/
+	//*************************
+
+	//decorator/component pattern
+	Sword* curveSowrd = new Sword();
+	Component* jediSword = new Laser(curveSowrd);
+	jediSword->Shoot();
+	delete jediSword;
+
+	Component* flameShield = new Flame(new Shield());
+	flameShield->Shoot();
+	delete flameShield;
+	//**************************
 
 	cin.get();
 
-	delete e;
+	//delete e;
 
 	return 0;
 }

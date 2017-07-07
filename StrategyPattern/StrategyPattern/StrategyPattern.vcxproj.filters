@@ -13,66 +13,120 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de código fuente\Component Pattern">
+      <UniqueIdentifier>{5920e45f-8baf-494e-9bfd-77c6ba0fd4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Component Pattern">
+      <UniqueIdentifier>{a1b2c5c2-6368-4ead-b89a-21a3ed4868c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Strategy Pattern">
+      <UniqueIdentifier>{410eae9b-ba58-4904-b89b-46264fcc3279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Strategy Pattern">
+      <UniqueIdentifier>{493af4c5-7f62-46af-9f67-6b0dcd473bd2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Personaje.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="Accesory.h">
+      <Filter>Archivos de encabezado\Component Pattern</Filter>
     </ClInclude>
-    <ClInclude Include="Item.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="Component.h">
+      <Filter>Archivos de encabezado\Component Pattern</Filter>
     </ClInclude>
-    <ClInclude Include="Posion.h">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="Flame.h">
+      <Filter>Archivos de encabezado\Component Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Archivos de encabezado\Component Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Archivos de encabezado\Component Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Archivos de encabezado\Component Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Archivos de encabezado\Component Pattern</Filter>
     </ClInclude>
     <ClInclude Include="Arma.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Strategy Pattern</Filter>
     </ClInclude>
     <ClInclude Include="Armadura.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Strategy Pattern</Filter>
     </ClInclude>
     <ClInclude Include="Ataque.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemigo.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="GolpeBasico.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Strategy Pattern</Filter>
     </ClInclude>
     <ClInclude Include="Disparo.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Strategy Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemigo.h">
+      <Filter>Archivos de encabezado\Strategy Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="GolpeBasico.h">
+      <Filter>Archivos de encabezado\Strategy Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Archivos de encabezado\Strategy Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Personaje.h">
+      <Filter>Archivos de encabezado\Strategy Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Posion.h">
+      <Filter>Archivos de encabezado\Strategy Pattern</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Personaje.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="Item.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="Posion.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="Arma.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="Armadura.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
+    <ClCompile Include="Accesory.cpp">
+      <Filter>Archivos de código fuente\Component Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Archivos de código fuente\Component Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Flame.cpp">
+      <Filter>Archivos de código fuente\Component Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Archivos de código fuente\Component Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Archivos de código fuente\Component Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Archivos de código fuente\Component Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Archivos de código fuente\Component Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Arma.cpp">
+      <Filter>Archivos de código fuente\Strategy Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Armadura.cpp">
+      <Filter>Archivos de código fuente\Strategy Pattern</Filter>
+    </ClCompile>
     <ClCompile Include="Ataque.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemigo.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="GolpeBasico.cpp">
-      <Filter>Archivos de código fuente</Filter>
+      <Filter>Archivos de código fuente\Strategy Pattern</Filter>
     </ClCompile>
     <ClCompile Include="Disparo.cpp">
-      <Filter>Archivos de código fuente</Filter>
+      <Filter>Archivos de código fuente\Strategy Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemigo.cpp">
+      <Filter>Archivos de código fuente\Strategy Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="GolpeBasico.cpp">
+      <Filter>Archivos de código fuente\Strategy Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Archivos de código fuente\Strategy Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Personaje.cpp">
+      <Filter>Archivos de código fuente\Strategy Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Posion.cpp">
+      <Filter>Archivos de código fuente\Strategy Pattern</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
