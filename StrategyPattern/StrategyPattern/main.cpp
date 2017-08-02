@@ -23,7 +23,10 @@ int main() {
 	e->CambiarAtaque(new GolpeBasico());
 	e->Atacar();
 	e->CambiarAtaque(new Disparo());
-	e->Atacar();*/
+	e->Atacar();
+	delete e;
+	delete p;
+	delete armadura;*/
 	//*************************
 
 	//decorator/component pattern
@@ -32,14 +35,13 @@ int main() {
 	jediSword->Shoot();
 	delete jediSword;
 
-	Component* flameShield = new Flame(new Shield());
+	Accesory* flameShield = new Flame(new Shield());
 	flameShield->Shoot();
 	delete flameShield;
 	//**************************
 
 	cin.get();
 
-	//delete e;
 
 	return 0;
 }
